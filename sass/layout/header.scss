@@ -1,0 +1,29 @@
+@use "../utils/variables.scss";
+@use "../utils/mixin.scss";
+header {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: variables.$primary-color;
+    @include mixin.title;
+    font-size: 4em;
+    opacity: 0; // Initialement invisible
+    animation: fadeIn 4s ease-in forwards; // Animation en fondu
+  }
+
+  // Définir l'animation de fondu
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; // Départ invisible
+      transform: translateY(0px); // Déplacement initial vers le bas
+    }
+    100% {
+      opacity: 1; // Complètement visible
+      transform: translateY(0); // Position normale
+    }
+  }
+}

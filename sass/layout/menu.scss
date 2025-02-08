@@ -1,0 +1,26 @@
+@use "../utils/mixin.scss";
+@use "../utils/variables.scss";
+
+nav {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto 40px auto;
+
+  a {
+    @include mixin.title;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: variables.$primary-color;
+    padding-bottom: 5px;
+  }
+
+  a:hover {
+    color: variables.$secondary-color;
+    border-bottom: 2px solid #46a7de;
+    padding-bottom: 5px;
+  }
+}
