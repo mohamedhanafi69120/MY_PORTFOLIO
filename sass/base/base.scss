@@ -1,3 +1,4 @@
+@use "../utils/variables.scss";
 @use "../utils/mixin.scss";
 
 /*******reset*********/
@@ -12,4 +13,25 @@
 body {
   background: url(../../assets/image/Background.jpg);
   background-repeat: repeat;
+}
+
+h2 {
+  color: variables.$primary-color;
+  @include mixin.title;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+p {
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: variables.$primary-color;
+  font-size: 1.1em;
+  @include mixin.text;
+}
+.dashed-line {
+  border-top: 3px dashed variables.$primary-color;
+  width: 75%;
+  margin: 0 auto 20px auto;
 }
