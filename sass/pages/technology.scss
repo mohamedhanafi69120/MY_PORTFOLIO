@@ -1,5 +1,41 @@
 .technology {
   width: 100%;
-  margin: 50px;
+  margin: 50px auto;
   padding: 20px;
+  text-align: center;
+}
+
+/* Conteneur principal : les images restent centrées */
+.carousel-container {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centre les images */
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 120px; /* Ajuste selon la taille des images */
+  background-color: transparent; /* Fond transparent */
+}
+
+/* La ligne des images */
+.carousel-track {
+  display: flex;
+  gap: 30px; /* Espacement entre les images */
+  animation: scroll 6s linear infinite; /* Animation de défilement */
+}
+
+/* Images */
+.carousel-track img {
+  width: 80px; /* Taille ajustable */
+  height: 80px;
+}
+
+/* Animation pour un défilement fluide */
+@keyframes scroll {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
