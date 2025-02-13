@@ -1,73 +1,73 @@
 [
   {
     "id": "1",
-    "title": "Booki",
-    "Description": "Création de la page d'accueil d'une agence de voyage avec un design attractif et intuitif.",
-    "Technology": "Développer avec html et css.",
-    "Lien": "https://github.com/mohamedhanafi69120/Booki-Projet3",
+    "titre": "Booki",
+    "description": "Création de la page d'accueil d'une agence de voyage avec un design attractif et intuitif.",
+    "dechnologies": "Développer avec html et css.",
+    "lien": "https://github.com/mohamedhanafi69120/Booki-Projet3",
     "image": "./assets/image/Booki.webp"
   },
 
   {
     "id": "2",
-    "title": "OhMyFood",
-    "Description": "Amélioration d'un site de restauration responsive avec des animations.",
-    "Technology": "Développer avec html et sass.",
-    "Lien": "https://github.com/mohamedhanafi69120/OhmyfoodOhmyfood",
+    "titre": "OhMyFood",
+    "description": "Amélioration d'un site de restauration responsive avec des animations.",
+    "technologies": "Développer avec html et sass.",
+    "lien": "https://github.com/mohamedhanafi69120/OhmyfoodOhmyfood",
     "image": "./assets/image/ohmyfood.webp"
   },
 
   {
     "id": "3",
-    "title": "PrintIt",
-    "Description": "Amélioration du site d'un imprimeur avec ajout d'un caroussel .",
-    "Technology": "Développer avec html et javascript.",
-    "Lien": "https://github.com/mohamedhanafi69120/Print-it-Javascript",
+    "titre": "PrintIt",
+    "description": "Amélioration du site d'un imprimeur avec ajout d'un caroussel .",
+    "technologies": "Développer avec html et javascript.",
+    "lien": "https://github.com/mohamedhanafi69120/Print-it-Javascript",
     "image": "./assets/image/printit.webp"
   },
 
   {
     "id": "4",
-    "title": "Sophie-Bluel",
-    "Description": "Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en communiquant avec une API.",
-    "Technology": "Développer avec html , sass , javascript.",
-    "Lien": "https://github.com/mohamedhanafi69120/Portfolio-architecte-sophie-bluel",
+    "titre": "Sophie-Bluel",
+    "description": "Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en communiquant avec une API.",
+    "technologies": "Développer avec html , sass , javascript.",
+    "lien": "https://github.com/mohamedhanafi69120/Portfolio-architecte-sophie-bluel",
     "image": "./assets/image/sophie-bluel.webp"
   },
 
   {
     "id": "5",
-    "title": "Kasa",
-    "Description": "Création d'une application pour une agence immobilière .",
-    "Technology": "Développer avec React , sass , vite.",
-    "Lien": "https://github.com/mohamedhanafi69120/kasa7",
+    "titre": "Kasa",
+    "description": "Création d'une application pour une agence immobilière .",
+    "technologies": "Développer avec React , sass , vite.",
+    "lien": "https://github.com/mohamedhanafi69120/kasa7",
     "image": "./assets/image/kasa.webp"
   },
 
   {
     "id": "6",
-    "title": "Nina carducci",
-    "Description": "Optimisation du referencement d'un site de photographe .",
-    "Technology": "html , css , javascript.",
-    "Lien": "https://github.com/mohamedhanafi69120/P9_nina-carducci",
+    "titre": "Nina carducci",
+    "description": "Optimisation du referencement d'un site de photographe .",
+    "technologies": "html , css , javascript.",
+    "lien": "https://github.com/mohamedhanafi69120/P9_nina-carducci",
     "image": "./assets/image/nina.webp"
   },
 
   {
     "id": "7",
-    "title": "724-Event",
-    "Description": "Finalisation et Déboggague d'un site evenmentiel .",
-    "Technology": "html , javascript.",
-    "Lien": "https://github.com/mohamedhanafi69120/P9_Debuggez-une-application",
+    "titre": "724-Event",
+    "description": "Finalisation et Déboggague d'un site evenmentiel .",
+    "technologies": "html , javascript.",
+    "lien": "https://github.com/mohamedhanafi69120/P9_Debuggez-une-application",
     "image": "./assets/image/724-event.webp"
   },
 
   {
     "id": "8",
-    "title": "ArgentBank",
-    "Description": "Conception d'une application bancaire en intégrant une API et en ajoutant les routes à la documentation Swagger.",
-    "Technology": "React , Redux , sass.",
-    "Lien": "https://github.com/mohamedhanafi69120/P10_ArgentBank",
+    "titre": "ArgentBank",
+    "description": "Conception d'une application bancaire en intégrant une API et en ajoutant les routes à la documentation Swagger.",
+    "technologies": "React , Redux , sass.",
+    "lien": "https://github.com/mohamedhanafi69120/P10_ArgentBank",
     "image": "./assets/image/argentbank.webp"
   }
 ]

@@ -11,21 +11,30 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="./assets/Javascript/Technology.js" defer></script>
+    <script src="./assets/scripts/Card.js" defer></script>
+    <!--Fontawesome- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Mon-Portfolio</title>
   </head>
   <body>
     <nav>
       <a href="#about">Presentation</a>
       <a href="#technology">Technologie</a>
-      <a href="">Projets</a>
-      <a href="">Contact</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
     </nav>
     <header>
       <h1>Developpeur Web Junior</h1>
     </header>
     <main>
-      <section class="about_me" id="about">
+      <section id="about">
         <div class="infos">
           <img src="./assets/image/moi.webp" alt="Photo de Hanafi M." />
           <div class="infos_txt">
@@ -56,7 +65,7 @@
         </p>
       </section>
       <div class="dashed-line"></div>
-      <section class="technology" id="technology">
+      <section id="technology">
         <h2>Technologies et Langages</h2>
         <p>
           Voici les technologies et langages que je maîtrise et utilise pour
@@ -76,6 +85,15 @@
             <img src="./assets/Icônes/github.png" alt="GitHub" />
           </div>
         </div>
+      </section>
+      <section id="projets">
+        <h2 class="">Mes projets Réalisés</h2>
+        <p>
+          Voici une sélection de mes projets réalisés en formation et en milieu
+          professionnel. Ils illustrent ma capacité à relever des défis et à
+          m’adapter aux besoins spécifiques de chaque projet.
+        </p>
+        <div class="card-Container"></div>
       </section>
     </main>
   </body>

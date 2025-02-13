@@ -7,3 +7,13 @@
 @mixin text {
   font-family: "Raleway", serif;
 }
+
+/******ombre**************/
+
+@mixin shadowCard {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+@mixin shadowModal {
+  box-shadow: 0 0 10px 3px rgba(232, 225, 196, 0.6);
+}
